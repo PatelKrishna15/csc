@@ -1,0 +1,19 @@
+{
+    "name": "nihirz/csc",
+    "description": "This library is used for the create the country, state, city seeder & published by the user which automatic create the tables & migrations & models. User can easily use it it their project.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nihir Zala",
+            "email": "zalanihir8866@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nihir\\csc\\":"src/"
+        }
+    }
+}
