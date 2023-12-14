@@ -1,7 +1,7 @@
 ## Installation contact package
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/nihirz/csc.svg?style=flat-square)](https://packagist.org/packages/nihirz/csc)
-[![Total Downloads](https://img.shields.io/packagist/dt/Nihirz/csc.svg?style=flat-square)](https://packagist.org/packages/vendor/package)
+[![Total Downloads](https://img.shields.io/packagist/dt/Nihirz/csc.svg?style=flat-square)](https://packagist.org/packages/nihirz/csc)
 
 
 
