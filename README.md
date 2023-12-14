@@ -1,9 +1,11 @@
-## Installation contact package
+## Laravel Country, State, City Seeder Package
 
+[![Latest Stable Version](https://poser.pugx.org/nihirz/csc/v)](https://packagist.org/packages/nihirz/csc)
+[![License](https://poser.pugx.org/nihirz/csc/license)](https://packagist.org/packages/nihirz/csc)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/nihirz/csc.svg?style=flat-square)](https://packagist.org/packages/nihirz/csc)
 
 
-- Hi, Here I created a package for country, state & and city seeder. You can install and use it in your laravel project. If you are using this package then you can give it a star this package it's free.
+ Hi, Here I created a package for country, state & and city seeder. You can install and use it in your laravel project. If you are using this package then you can give it a star this package it's free.
 ## For Installation
 
 - To install this package you have to install this package using composer.
