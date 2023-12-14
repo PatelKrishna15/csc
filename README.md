@@ -14,7 +14,7 @@ Make sure you do not have any country,state & city models or migrations then rem
 composer require nihirz/csc
 ```
 
-- To check whether the contact package is suc installed or not you have to run this command ```composer dump-autoload ``, If you did not get any error that means the package is successfully installed.
+- To check whether the contact package is suc installed or not you have to run this command ```composer dump-autoload```, If you did not get any error that means the package is successfully installed.
 
 ## For Publishing providers
 
@@ -33,4 +33,4 @@ php artisan config:cache
 
 ## Friendly Note
 
-- if you have any query about this package or face some error or need support to update simply mail me<a href="mailto:testnihir@gmail.com">here</a>.
+- if you have any query about this package or face some error or need support to update simply mail me<a href="mailto:testnihir@gmail.com"> here</a>.
