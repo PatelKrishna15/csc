@@ -19,11 +19,10 @@ class CountryStateCityTableSeeder extends Seeder
      */
     public function run()
     {
-        Country::upsert(CountryDataProvider::data(), ['code'], ['name']);
-        State::upsert(StateDataProvider::data(), ['code'], ['name']);
-        
-        foreach (collect(CityDataProvider::data())->chunk(15000) as $chunkCities) {
-            City::upsert($chunkCities->toArray(), ['code'], ['name']);
+        Country::insertOrIgnore(CountryDataProvider::data());
+        State::insertOrIgnore(StateDataProvider::data());
+            foreach (collect(CityDataProvider::data())->chunk(15000) as $chunkCities) {
+                City::insertOrIgnore($chunkCities->toArray());
         }
     }
 }
