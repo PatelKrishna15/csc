@@ -2,6 +2,8 @@
 
 ## Laravel Country, State, City Seeder Package
 
+[![Packagist Version](https://img.shields.io/packagist/v/nihirz/csc.svg)](https://packagist.org/packages/nihirz/csc)
+[![License](https://img.shields.io/github/license/your-username/your-repo.svg)](LICENSE)
 [![Latest Stable Version](https://poser.pugx.org/nihirz/csc/v)](https://packagist.org/packages/nihirz/csc)
 [![Total Downloads](https://poser.pugx.org/nihirz/csc/downloads)](https://packagist.org/packages/nihirz/csc)
 [![License](https://poser.pugx.org/nihirz/csc/license)](https://packagist.org/packages/nihirz/csc)
