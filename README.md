@@ -76,7 +76,7 @@ Now Simplay run the following command for the seed the database.
 php artisan db:seed
 ```
 
-
+The CountryModel,CityModel & StateModel has already relationship you do not have to worry about  relationshipt & more than that I update the Country Model, Migration & DataProvider that I added the iso2, iso3, numcode & country phonecode.
 
 ## Friendly Note
 
