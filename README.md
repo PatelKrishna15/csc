@@ -89,3 +89,29 @@ php artisan db:seed
 [![LinkedIn URL](https://img.shields.io/badge/Connect%20%40nihirzala-0077B5?style=social&logo=linkedin)](https://www.linkedin.com/in/nihirzala/)
 
 [![Instagram URL](https://img.shields.io/badge/Follow%20%40inihirzala-ff69b4?style=social&logo=instagram)](https://www.instagram.com/inihirzala/)
+
+## Contributors
+
+Thank you to all the wonderful people who contributed to this project!
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Nihirz">
+        <img src="https://avatars.githubusercontent.com/u/81821668?v=4" width="100px;" alt="Nihirz"/>
+        <br />
+        <sub><b>Nihirz</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/PatelKrishna15">
+        <img src="https://avatars.githubusercontent.com/u/124368285?v=4" width="100px;" alt="PatelKrishna15"/>
+        <br />
+        <sub><b>PatelKrishna15</b></sub>
+      </a>
+    </td>
+    <!-- Add more contributors as needed -->
+  </tr>
+</table>
+
+Want to contribute? Check out our [Contributing Guidelines](CONTRIBUTING.md).
