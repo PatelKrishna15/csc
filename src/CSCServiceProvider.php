@@ -7,6 +7,8 @@ use Nihirz\csc\Console\Commands\PublishPackageResources;
 
 class CSCServiceProvider extends ServiceProvider
 {
+    protected $defer = true;
+    
     public function boot()
     {
         $this->publishes([
