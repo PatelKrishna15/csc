@@ -3,7 +3,8 @@
 namespace Nihirz\csc;
 
 use Illuminate\Support\ServiceProvider;
-use Database\Seeders\CountryStateCityTableSeeder;
+use Nihirz\csc\Console\Commands\PublishPackageResources;
+
 class CSCServiceProvider extends ServiceProvider
 {
     public function boot()
@@ -19,8 +20,12 @@ class CSCServiceProvider extends ServiceProvider
         ]);
     }
     
-    public function register()
+    protected function registerCommands()
     {
-        
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                PublishPackageResources::class,
+            ]);
+        }
     }
 }
