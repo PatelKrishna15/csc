@@ -52,7 +52,7 @@ Nihir\csc\CSCServiceProvider::class,
 ```
 
 ```bash
-php artisan vendor:publish --provider=Nihirz\csc\CSCServiceProvider
+php artisan vendor:publish --provider=Nihir\csc\CSCServiceProvider
 ```
 
 The previous command publishes the files in your project.
