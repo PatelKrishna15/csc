@@ -11,9 +11,6 @@ class PublishPackageResources extends Command
 
     public function handle()
     {
-        // Get package base path
-        // $packagePath = dirname(__DIR__, 2);
-
         // Publish files and directories
         $this->publishes([
             __DIR__.'/DataProviders' => base_path('app/DataProviders'),
