@@ -45,6 +45,12 @@ composer require nihirz/csc
 
 ## For Publishing providers
 
+first you have to add the bellow line in ```app.php``` in ```providers``` section.
+
+```bash
+Nihir\csc\CSCServiceProvider::class,
+```
+
 ```bash
 php artisan vendor:publish --provider=Nihirz\csc\CSCServiceProvider
 ```

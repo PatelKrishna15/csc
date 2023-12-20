@@ -1,6 +1,6 @@
 <?php
 
-namespace Nihirz\csc;
+namespace Nihir\csc;
 
 use Illuminate\Support\ServiceProvider;
 use Nihirz\csc\Console\Commands\PublishPackageResources;

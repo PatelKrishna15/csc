@@ -13,19 +13,19 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Nihirz\\csc\\": "src/"
+            "Nihir\\csc\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Nihirz\\csc\\CSCServiceProvider"
+                "Nihir\\csc\\CSCServiceProvider"
             ]
         }
     },
     "scripts": {
         "post-install-cmd": [
-            "php artisan vendor:publish --provider=\"Nihirz\\csc\\CSCServiceProvider\""
+            "php artisan vendor:publish --provider=\"Nihir\\csc\\CSCServiceProvider\""
         ]        
     }
 }
