@@ -9,11 +9,11 @@
 [![License](https://poser.pugx.org/nihirz/csc/license)](https://packagist.org/packages/nihirz/csc)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/nihirz/csc.svg?style=flat-square)](https://packagist.org/packages/nihirz/csc)
 
- Hi, Here I created a package for country, state & and city seeder. You can install and use it in your laravel project. If you are using this package then you can give it a star this package is free, In the future I Will add the country code &  phone initials.
+ Hi, I created a package for country, state & and city seeder. You can install and use it in your laravel project. If you are using this package then you can give it a star this package is free, In the future I Will add the country code &  phone initials.
 
 ## What is this library?
 
-This is a library called CSC aka Country-State-City Seeders. When I was developing, I faced the issues so often that where can I get the seeder files? & how can I manage it? Is there a relationship or not?
+This is a library called CSC aka Country-State-City Seeders. While developing, I faced the issues so often that where can I get the seeder files? & how can I manage it? Is there a relationship or not?
 
 So I googled & found some seeders files & with that help, I made this library which already has a relationship between their models.
 
@@ -27,7 +27,7 @@ If your project needs the country state & city dropdown & you have no idea about
 
 - Easy to modify
 
-- Models have already relationship
+- Models have already a relationship
 
 ## For Installation
 
@@ -35,7 +35,7 @@ If your project needs the country state & city dropdown & you have no idea about
 
 ## Note:
 
-Make sure you do not have any country,state & city models or migrations then remove it other wise this will create the conficts.
+Make sure you do not have any country, state & city models or migrations then remove it other this will create conflicts.
 
 # How to install it?
 
@@ -72,19 +72,19 @@ php artisan migrate
 
 This will migrate the tables into databases.
 
-Now simply add this line in your ```DataBaseSeeder.php``` file.
+Now add this line in your ```DataBaseSeeder.php``` file.
 
 ```bash
 $this->call(CountryStateCityTableSeeder::class);
 ```
 
-Now Simplay run the following command for the seed the database.
+Now Simplay runs the following command for the seed of the database.
 
 ```bash
 php artisan db:seed
 ```
 
-The CountryModel,CityModel & StateModel has already relationship you do not have to worry about  relationshipt & more than that I update the Country Model, Migration & DataProvider that I added the iso2, iso3, numcode & country phonecode.
+The CountryModel, CityModel & StateModel has already relationships you do not have to worry about  relationships & more than that I updated the Country Model, Migration & DataProvider and I added the iso2, iso3, numcode & country phonecode.
 
 ## Friendly Note
 
